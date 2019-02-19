@@ -66,9 +66,7 @@ looker.plugins.visualizations.add({
   // Set up the initial state of the visualization
   create: function(element, config) {
     
-    //$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://localhost:4443/dependencies/highlightjs.css') );
-    //$('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://localhost:4443/dependencies/global.css') );
-    $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', '/dependencies/global.css') );
+    $('head').append( $('<link rel="stylesheet" type="text/css" />').attr('href', 'https://cdn.jsdelivr.net/gh/mbarugelCA/sankey-with-flows@1.2/dependencies/global.css') );
 
     // Insert a <style> tag with some styles we'll use later.
     element.innerHTML = `
